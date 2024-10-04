@@ -102,7 +102,7 @@ char paramPollIntervalValue[INTEGER_LEN];
 char paramNumLedsValue[INTEGER_LEN];
 char paramBrightnessValue[INTEGER_LEN];
 IotWebConfSeparator separator = IotWebConfSeparator();
-IotWebConfParameter paramClientId = IotWebConfParameter("Client-ID (PEPP App ID: 3837bbf0-30fb-47ad-bce8-f460ba9880c3)", "clientId", paramClientIdValue, STRING_LEN, "text", "e.g. 3837bbf0-30fb-47ad-bce8-f460ba9880c3", "3837bbf0-30fb-47ad-bce8-f460ba9880c3");
+IotWebConfParameter paramClientId = IotWebConfParameter("Client-ID (PEPP App ID: d5c928ea-7ebc-4aeb-90f1-b932a422eafd)", "clientId", paramClientIdValue, STRING_LEN, "text", "e.g. d5c928ea-7ebc-4aeb-90f1-b932a422eafd", "d5c928ea-7ebc-4aeb-90f1-b932a422eafd");
 IotWebConfParameter paramTenant = IotWebConfParameter("Tenant hostname / ID", "tenantId", paramTenantValue, STRING_LEN, "text", "e.g. ponpepp.onmicrosoft.com");
 IotWebConfParameter paramPollInterval = IotWebConfParameter("Presence polling interval (sec) (default: 30)", "pollInterval", paramPollIntervalValue, INTEGER_LEN, "number", "10..300", DEFAULT_POLLING_PRESENCE_INTERVAL, "min='10' max='300' step='5'");
 IotWebConfParameter paramNumLeds = IotWebConfParameter("Number of LEDs (default: 16)", "numLeds", paramNumLedsValue, INTEGER_LEN, "number", "1..500", "16", "min='1' max='500' step='1'");
