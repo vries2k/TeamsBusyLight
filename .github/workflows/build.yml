@@ -1,7 +1,6 @@
 name: BuildAndRelease
 on: push
 
-
 jobs:
   main:
     name: Build
