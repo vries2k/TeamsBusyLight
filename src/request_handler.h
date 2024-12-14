@@ -3,7 +3,7 @@
  *   based on ESP32 and RGB neopixel LEDs.
  *   https://github.com/toblum/ESPTeamsPresence
  *
- * Copyright (C) 2020 Tobias Blum <make@tobiasblum.de>
+ * Copyright (C) 2020 Tobias Blum <make@tobiasblum.de> & (c) Maarten de Vries
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
